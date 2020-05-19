@@ -123,7 +123,7 @@
         <OutArgument x:TypeArguments="x:String">[name]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String" xml:space="preserve">["Name:  " + OutputArray(3)]</InArgument>
+        <InArgument x:TypeArguments="x:String">["Name: " + OutputArray(3)]</InArgument>
       </Assign.Value>
     </Assign>
     <Assign sap:VirtualizedContainerService.HintSize="410.4,60" sap2010:WorkflowViewState.IdRef="Assign_3">
